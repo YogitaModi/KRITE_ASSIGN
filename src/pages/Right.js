@@ -144,16 +144,26 @@ const Right = () => {
     <div>
       <div className="search">
         <h4>Products</h4>
-        <input
-          placeholder="search..."
-          value={search}
-          onChange={(e) => {
-            setSearch(e.target.value);
-          }}
-        />
-        <button className="btn" onClick={handleSearch}>
-          Search
-        </button>
+        <div className="search-item">
+          <input
+            placeholder="search..."
+            value={search}
+            onChange={(e) => {
+              setSearch(e.target.value);
+            }}
+          />
+          <button className="btn" onClick={handleSearch}>
+            Search
+          </button>
+          <button
+            className="btn"
+            onClick={() => {
+              window.location.reload();
+            }}
+          >
+            All items
+          </button>{" "}
+        </div>
       </div>
       <Navba value={tab} />
       <table className="table table-hover table-bordered">
