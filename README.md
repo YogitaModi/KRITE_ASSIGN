@@ -94,6 +94,7 @@ import react from "react"
 For avoiding prop drilling and prop lifting used context api.
 
 ```Run
+npm i
 npm run start
 
 ```
