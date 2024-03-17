@@ -36,3 +36,159 @@
     transform: rotate(360deg);
   }
 }
+
+.opac{
+  opacity: 0.5 !important;
+}
+.category{
+  border: 1px solid rgba(255, 0, 0, 0.616);
+  border-radius: 10% !important;
+  padding: 2px;
+  background-color: rgba(255, 0, 0, 0.137) !important;
+  width: 50px;
+  font-size: 12px;
+  font-weight: bold;
+  height:25px;
+  margin: 0;
+  color: #282c34;
+}
+
+.tags{
+  border-radius: 5%;
+  padding: 2px; 
+  background-color: #282c3413;
+  border: 1px solid rgba(128, 128, 128, 0.527);
+  border-radius: 10% !important; 
+  width: 110px !important; 
+  font-size: 12px;
+  font-weight: bold;
+  height:35px !important;
+  margin: 0;
+  color: #282c34a8;
+}
+
+/* next meeting */
+.timing{
+  border: 1px solid rgba(0, 128, 0, 0.849);
+  background-color: rgba(0, 128, 0, 0.342);
+  color: green;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 10%  !important;
+  padding: 2px; 
+
+}
+
+.btn{
+  border: none;
+  font-weight: bolder;
+  opacity: 0.6;
+  font-size: larger;
+}
+
+/* left second css */
+.list{
+  align-items: left;
+}
+
+
+/* profile name */
+.profile{
+  background-color:#282c34;
+  color: rgba(255, 255, 255, 0.603);
+  display: flex;
+  flex-direction: row;
+}
+.initials{
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  width:40px;
+  height:40px;
+  font-size: 28px;
+  font-weight: bold;
+}
+/* ends */
+
+
+.menus{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgba(128, 128, 128, 0.322);
+  border-bottom: none;
+}
+.drop{
+  background-color: #dbdbdb0a !important;
+  margin: 2px;
+font-size: 10px;
+padding: 4px;
+}
+.drop button{
+  background-color: #cacccf1e;
+  border: 1px solid rgba(128, 128, 128, 0.322);
+  color: grey;
+}
+.sort{
+  font-size: 14px;
+  background-color: #cacccf9c;
+  border: 1px solid rgba(128, 128, 128, 0.322);
+  color: grey;
+}
+/* end */
+
+
+/* top search bar */
+.search{
+  border:  1px solid rgba(128, 128, 128, 0.322);
+  border-bottom: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 15px;
+}
+.search input{
+  border-radius: 10px;
+  border:1px solid rgba(128, 128, 128, 0.322);
+}
+
+/* folder side */
+.folder{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: grey;
+}
+.product{
+  margin-left: 15px;
+ 
+  justify-content: space-between;
+  
+  background-color: #cacccf23;
+  color: black;
+  font-size: 15px;
+  margin-top: 2px;
+  
+  
+}
+
+
+/* create team css */
+.team{
+  display: flex;
+  justify-content: space-between;
+}
+.left-side{
+  border:1px solid rgba(128, 128, 128, 0.322);
+  padding:10px;
+  border-radius: 10px;
+}
+.folders{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: start; */
+
+  
+}
