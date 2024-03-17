@@ -68,3 +68,32 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# React Js
+
+React Js is a JavaScript library for dealing with Frontend Projects.
+
+## Installation
+
+Use the command npx create-react-app name of the project to create react app.
+
+```bash
+npx create-react-app app-name
+```
+
+## import and usage
+
+```JavaScript
+import react from "react"
+
+
+```
+
+## hooks and context api
+
+For avoiding prop drilling and prop lifting used context api.
+
+```Run
+npm run start
+
+```
